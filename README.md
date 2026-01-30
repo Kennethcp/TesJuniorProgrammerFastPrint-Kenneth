@@ -11,11 +11,11 @@
 ## Struktur Proyek
 ```
 fastprint_test/
-├── fastprint_test/        # project settings
+├── fastprint_test/        # Settings
 │   ├── settings.py
 │   ├── urls.py
 │   └── ...
-├── produk/                # app for product management
+├── produk/                # Aplikasi
 │   ├── models.py
 │   ├── views.py           # HTML views
 │   ├── views_api.py       # API views (DRF)
