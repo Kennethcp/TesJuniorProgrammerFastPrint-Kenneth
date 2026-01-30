@@ -45,19 +45,24 @@ pip install -r requirements.txt
 ```
 
 ### 3. Konfigurasi Database
-Edit fastprint_test/settings.py
+1. Buat database menggunakan MySQL
+```
+CREATE DATABASE fastprint_db
+```
+2. Edit fastprint_test/settings.py
 ```
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'fastprint_db',
-        'USER': 'fastprint_user',
-        'PASSWORD': 'fastprint_pass',
+        'USER': 'root',
+        'PASSWORD': '[Password Anda]',
         'HOST': 'localhost',
         'PORT': '3306',
     }
 }
 ```
+Notes : Ganti [Password Anda] dengan Password MySQL server anda
 ### 4. Menjalankan migrations
 ```
 python manage.py makemigrations
