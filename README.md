@@ -47,7 +47,7 @@ pip install -r requirements.txt
 ### 3. Konfigurasi Database
 1. Buat database menggunakan MySQL
 ```
-CREATE DATABASE fastprint_db
+CREATE DATABASE fastprint_db;
 ```
 2. Edit fastprint_test/settings.py
 ```
