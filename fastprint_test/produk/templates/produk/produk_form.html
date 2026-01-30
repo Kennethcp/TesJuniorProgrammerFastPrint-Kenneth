@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="mb-4">{{ form_title }}</h1>
+
+<form method="post" class="card p-3 shadow-sm">
+  {% csrf_token %}
+  {{ form.as_p }}
+  {% if form.errors %}
+    <div class="alert alert-danger">
+      <ul>
+        {% for field, errors in form.errors.items %}
+          {% for error in errors %}
+            <li>{{ error }}</li>
+          {% endfor %}
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+  <button type="submit" class="btn btn-success">Simpan</button>
+  <a href="{% url 'produk_list' %}" class="btn btn-secondary">Kembali</a>
+</form>
+{% endblock %}
