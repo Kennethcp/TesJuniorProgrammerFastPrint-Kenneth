@@ -79,9 +79,9 @@ python manage.py runserver
 - API JSON: http://127.0.0.1:8000/api/produk/
 
 ## API Endpoint
-•	GET /api/produk/ untuk menampilkan daftar produk.
-•	GET /api/produk/{id}/ untuk menampilkan detail produk berdasarkan ID.
-•	POST /api/produk/ untuk menambahkan produk baru.
-•	PUT /api/produk/{id}/ untuk memperbarui data produk.
-•	DELETE /api/produk/{id}/ untuk menghapus produk.
+-	GET /api/produk/ untuk menampilkan daftar produk.
+-	GET /api/produk/{id}/ untuk menampilkan detail produk berdasarkan ID.
+-	POST /api/produk/ untuk menambahkan produk baru.
+-	PUT /api/produk/{id}/ untuk memperbarui data produk.
+-	DELETE /api/produk/{id}/ untuk menghapus produk.
 
