@@ -9,6 +9,7 @@
 ---
 
 ## Struktur Proyek
+```
 fastprint_test/
 ├── fastprint_test/        # project settings
 │   ├── settings.py
@@ -23,7 +24,7 @@ fastprint_test/
 │   ├── urls.py
 │   └── templates/produk/  # HTML templates
 └── manage.py
-
+```
 
 ## Mulai Aplikasi
 
