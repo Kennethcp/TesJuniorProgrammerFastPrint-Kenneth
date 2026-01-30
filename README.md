@@ -40,11 +40,13 @@ Membuat Virtual Environment dan Install Dependensi
 python -m venv .venv
 source .venv/bin/activate   # Linux/Mac
 .venv\Scripts\activate      # Windows
-
+```
+### 3. Install Dependency
+```
 pip install -r requirements.txt
 ```
 
-### 3. Konfigurasi Database
+### 4. Konfigurasi Database
 1. Buat database menggunakan MySQL
 ```
 CREATE DATABASE fastprint_db;
@@ -63,13 +65,13 @@ DATABASES = {
 }
 ```
 Notes : Ganti [Password Anda] dengan Password MySQL server anda
-### 4. Menjalankan migrations
+### 5. Menjalankan Migrations
 ```
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-### 5. Start server
+### 6. Jalankan Server
 ```
 python manage.py runserver
 ```
