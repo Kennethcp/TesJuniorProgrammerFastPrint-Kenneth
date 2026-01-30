@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'fastprint_db',
         'USER': 'root',
-        'PASSWORD': 'admin12345',
+        'PASSWORD': '[PASSWORD_ANDA]',
         'HOST': 'localhost',
         'PORT': '3306',
     }
